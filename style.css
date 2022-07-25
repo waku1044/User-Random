@@ -17,6 +17,7 @@ body{
 	justify-content:space-around;
 }
 #header{
+	width: 100%;
 	display: flex;
 	justify-content: space-around;
 	padding: 20px;
@@ -54,6 +55,7 @@ body{
 	
 }
 footer{
+	width: 100%;
 	margin-top: 15%;
 	padding: 20px;
 	text-align: center;
