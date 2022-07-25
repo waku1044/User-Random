@@ -18,16 +18,9 @@ function buscar (){
 			<td>${apellido}</td>
 			<td>${edad}</td>
 			<td>${email}</td>`
-	 // table.appendChild(element);
-	 console.log(resul)
+	 //console.log(resul)
 	 let tr = document.createElement('tr');
 	 tr.innerHTML = template
-	 // tr.innerHTML = td;
-	 // tr.appendChild(td)
-	 // td.innerHTML = element;
-	 // tr.appendChild(td)
-	 // td.innerHTML = edad;
-	 // tr.appendChild(td);
 	 table.appendChild(tr);	 
 
 	
